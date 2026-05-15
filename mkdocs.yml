@@ -1,0 +1,13 @@
+site_name: 开水的小壶
+site_description: 随缘记录
+site_url: https://Altokra.github.io/
+
+theme:
+  name: material
+  language: zh
+
+nav:
+  - 首页: index.md
+  - 关于我: about.md
+  - 项目: projects.md
+
