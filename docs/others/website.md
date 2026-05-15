@@ -39,5 +39,21 @@ python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
 
-似乎可以避免一些环境冲突，等我补完python的课应该就知道咋回事了
+似乎可以避免一些环境冲突，等我补完 python 的课应该就知道咋回事了
 
+### callout 
+
+增加了callout插件以便能够渲染出 obsidian 的 callout 块
+
+```yml
+
+plugins:
+  - search
+  - callouts
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+```

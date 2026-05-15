@@ -5,6 +5,22 @@ site_url: https://Altokra.github.io/
 theme:
   name: material
   language: zh
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.follow
+
+plugins:
+  - search
+  - callouts
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 nav:
   - 首页: index.md
